@@ -30,7 +30,11 @@ public class CarMovement : MonoBehaviour
     {
         rb.AddForce(transform.up * moveAmount);
 
-        //rb.MoveRotation(rotateAmount);
         rb.AddTorque(rotateAmount);
+
+        if (Input.GetKey(KeyCode.Space) && playerNum == 1)
+        {
+
+        }
     }
 }
