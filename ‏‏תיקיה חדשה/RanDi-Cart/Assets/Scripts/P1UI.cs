@@ -65,6 +65,12 @@ public class P1UI : MonoBehaviour
             case "Bomb":
                 powerUpImage.sprite = powerUpImages[3];
                 break;
+            case "Portal":
+                powerUpImage.sprite = powerUpImages[4];
+                break;
+            case "Star":
+                powerUpImage.sprite = powerUpImages[5];
+                break;
 
         }
 

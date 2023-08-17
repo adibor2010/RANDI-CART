@@ -200,7 +200,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 32993e024760f474989c40e399772e66, type: 3}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 180c71ec6527ec4448fbb0a37705513b, type: 3}
   powerUpColors:
   - {r: 1, g: 1, b: 1, a: 0}
   - {r: 1, g: 1, b: 1, a: 1}
@@ -824,7 +824,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 594abd17b0610054e83f76871f806278, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5944b3e88406e7e40b70f44655c1e37a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -867,7 +867,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.1666665, y: 4.1666665}
+    oldSize: {x: 7.68, y: 7.68}
     newSize: {x: 5, y: 5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1728,12 +1728,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   respawnTimeRate: 3
   possiblePowerUpTypes:
-  - Banana
-  - Banana
-  - Lightning
-  - Lightning
   - Mushroom
-  - Mushroom
+  - Lightning
+  - Banana
+  - Bomb
+  - Portal
+  - Star
   currentPowerUpType: 
   playerHasPowerUp: 00000000
 --- !u!61 &1195002991
