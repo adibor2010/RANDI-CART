@@ -78,4 +78,9 @@ public class PowerUpBoxScript : MonoBehaviour
     {
         return playerHasPowerUp[playerNumber - 1];
     }
+
+    public void SetPlayerHasPowerUp(bool doesPlayerHasPowerUp, int playerNumber)
+    {
+        playerHasPowerUp[playerNumber - 1] = doesPlayerHasPowerUp;
+    }
 }

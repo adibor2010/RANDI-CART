@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,6 +34,17 @@ public class P1UI : MonoBehaviour
         {
             SetPowerUpImage();
         }
+        else if (powerUpBoxScript.GetPlayerHasPowerUp(1) == false)
+        {
+            RemovePowerUpImage();
+        }
+    }
+
+    private void RemovePowerUpImage()
+    {
+        Image powerUpImage = powerUpObject.GetComponent<Image>();
+
+        powerUpImage.color = powerUpColors[0];
     }
 
     void SetPowerUpImage()

@@ -37,4 +37,9 @@ public class CarMovement : MonoBehaviour
 
         }
     }
+
+    public int GetPlayerNumber()
+    {
+        return playerNum;
+    }
 }
