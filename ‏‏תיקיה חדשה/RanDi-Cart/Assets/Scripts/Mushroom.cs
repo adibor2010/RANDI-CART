@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class Mushroom : MonoBehaviour
 {
@@ -11,7 +10,7 @@ public class Mushroom : MonoBehaviour
     Vector3 regularScale = new Vector3(1f, 1f, 1f);
     Vector3 bigScale = new Vector3(3f, 3f, 1f);
 
-    private void Start()
+    private void OnEnable()
     {
         startBigScaleTimer = true;
         bigScaleTime = 0;
@@ -38,6 +37,8 @@ public class Mushroom : MonoBehaviour
                 bigScaleTime = 0;
 
                 transform.localScale = regularScale;
+
+                this.enabled = false;
             }
         }
     }
