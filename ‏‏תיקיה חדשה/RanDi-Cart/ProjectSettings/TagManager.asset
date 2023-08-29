@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Mushroom
   - Player1
+  - Back
   layers:
   - Default
   - TransparentFX
