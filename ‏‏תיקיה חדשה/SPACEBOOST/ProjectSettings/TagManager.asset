@@ -8,6 +8,7 @@ TagManager:
   - Obstecle
   - Spawner
   - Fuel
+  - LightOrb
   layers:
   - Default
   - TransparentFX
